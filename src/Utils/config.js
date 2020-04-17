@@ -43,7 +43,7 @@ export default {
         { icon: 'fa fa-magic fa-3x', title: "TEMPLATES", description: "Criação de template/layout da sua ideia" },
         { icon: 'fas fa-lightbulb', title: "CONSULTORIA", description: "Prestação de consultoria no axílio de sites,aplicações,aplicativos e tecnologias." },
         { icon: 'fab fa-android', title: "ANDROID", description: "Criação de aplicativos mobile para uso android" },
-        { icon: 'fa fa-user-secret fa-3x', title: "ANALÍTICOS", description: "Criação de dashboards para melhor sua base de dados" },
+        { icon: 'fa fa-user-secret fa-3x', title: "ANALÍTICOS", description: "Criação de dashboards para melhor visualizar sua base de dados" },
 
     ],
     about: {
@@ -63,7 +63,7 @@ export default {
             No momento estou em uma posição como estagiário em uma empresa chamada UNISEC atuando com diversas responsábilidades, tais como, suporte ao cliente, infraestruta, desenvolvimento de produtos/soluções e devops. 
             Estou participando de um projeto Open Source chamado http://github.com/jadson179/SMUH.
             Meu maior objetivo atualmente é atuar full-time com desenvolvimento e assim evoluir ainda mais na carreira como um desenvolvedor.
-            Tenho alguns projetos no github em http://github.com/jadson179  que usei para empregar algumas tecnologias para entender o seu funcionamento para fazer uso em produto futúro.
+            Tenho alguns projetos no github em http://github.com/jadson179  que usei para empregar algumas tecnologias para entender o seu funcionamento para fazer uso em soluções futúras.
             `
         }
     },
