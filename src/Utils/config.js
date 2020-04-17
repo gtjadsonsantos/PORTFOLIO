@@ -43,7 +43,7 @@ export default {
         { icon: 'fa fa-magic fa-3x', title: "TEMPLATES", description: "Criação de template/layout da sua ideia" },
         { icon: 'fas fa-lightbulb', title: "CONSULTORIA", description: "Prestação de consultoria no axílio de sites,aplicações,aplicativos e tecnologias." },
         { icon: 'fab fa-android', title: "ANDROID", description: "Criação de aplicativos mobile para uso android" },
-        { icon: 'fa fa-user-secret fa-3x', title: "ANALÍTICOS", description: "Criação de dashboards para melhor sua base de dados" },
+        { icon: 'fa fa-user-secret fa-3x', title: "ANALÍTICOS", description: "Criação de dashboards para melhor visualizar sua base de dados" },
 
     ],
     about: {
