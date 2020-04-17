@@ -7,7 +7,7 @@ width="300"
 </p>
 
 <p align="center">
-PORTIFOLIO 
+PORTFOLIO 
 </p>
 
 
