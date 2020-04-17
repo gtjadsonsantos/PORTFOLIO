@@ -1,0 +1,108 @@
+.containerHeader {
+    display: flex;
+    flex-direction: column;
+    background-color: #8e45ae;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 500px;
+
+}
+.containerHeader #menu-navigation-header {
+    display: flex;
+    width: 400px;
+    font-size: 14px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 10%;
+}
+.containerHeader #menu-navigation-header {
+    list-style-type: none;
+}
+.containerHeader #menu-navigation-header li {
+    font-family: 'Roboto',sans-serif;
+    color: #fff;
+    font-weight: 600;
+    font-size: 13px;
+}
+.containerHeader #menu-navigation-header li::after {
+    content: '';
+    border: 0px 0px 10px 0px solid #fff;  
+}
+#content-header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 30px;
+
+}
+
+#content-header h1 {
+    margin-top: 10px;
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+#content-header h3 {
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+hr { 
+    width: 40px;
+    height: 5px;
+    background: #fff;
+}
+#picture-profile {
+    width: 150px;
+    border-radius: 6em;
+}
+
+#social {
+    width: 220px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#social i {
+    border: 2px solid #fff;
+    background-color: transparent;
+    padding: 10px;
+    width: 40px;
+    color: #fff;
+    border-radius: 5em;
+    cursor: pointer;
+}
+
+#instagram:hover {
+    background: rgb(116, 11, 67);
+    border-color: rgb(116, 11, 67);
+    transform: rotate(360deg);
+    transition: 0.4s ease-in;
+}
+
+ #github:hover {
+    background: rgb(3, 1, 2);
+    border-color: rgb(3, 1, 2);;
+    transform: rotate(360deg);
+    transition: 0.4s ease-in;
+}
+#facebook:hover {
+    background: rgb(28, 0, 119);
+    border-color:rgb(28, 0, 119);
+    transform: rotate(360deg);
+    transition: 0.4s ease-in;
+}
+
+#linkedin:hover {
+    background: rgb(54, 0, 233);
+    border-color: rgb(54, 0, 233);
+    transform: rotate(360deg);
+    transition: 0.4s ease-in;
+}
+

@@ -1,68 +1,80 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+<p align="center">
+<img src="img/logo.svg" 
+width="300"
+>
+</p>
 
-### `yarn start`
+<p align="center">
+PORTIFOLIO 
+</p>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+**Chat: __[WhatsApp](https://api.whatsapp.com/send?phone=5548999328092)**
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## [Demo](https://jadsonsantos.com)
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+website de divulção do projeto mostrando.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<div align="center">
+  <br>
+    <img src="img/portfolio.svg" alt="Screenshot1" width="90%">
+  <br>
+</div>
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Motivo 🤔
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Fornecer uma ambiente simples para estruturar seus `projetos`, `serviços` e `contatos` de uma forma profissional.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Servidor de desenvolvimento 🚀
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Clonando o projeto:
 
-## Learn More
+```
+git clone https://github.com/jadson179/portfolio.git
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Navegando até a pasta do projeto:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+cd portfolio/
+```
 
-### Code Splitting
+Baixando as dependências do projeto
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+```bash
+yarn
+```
 
-### Analyzing the Bundle Size
+Rodando o projeto
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+```bash
+yarn start
+```
 
-### Making a Progressive Web App
+Acesse [http://localhost:3000](http://localhost:3000) com o seu navegador para ver o resultado.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
 
-### Advanced Configuration
+## License 📝
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+Esse projeto usa a licença MIT license - veja o arquivo LICENSE para mais detalhes
 
-### Deployment
+## Ajude o projeto 🤝
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+<a href="https://opencollective.com/covid19-brazil-api/donate" target="_blank">
+  <img src="https://opencollective.com/corvid19-brazil-api/donate/button@2x.png?color=blue" width=300 />
+</a>
 
-### `yarn build` fails to minify
+[Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=TQ2QEYCNZNH7C&currency_code=BRL&source=url)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## Autor
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/jasdson179"><img src="https://avatars0.githubusercontent.com/u/42282908?s=460&u=79ce909209ebf14da91a2d2517c9b0f9e378a4e1&v=4" width="100px;" alt=""/><br /><sub><b>Jadson Santos</b></sub></a><br /><a href="https://github.com/jadson179/portfolio/commits?author=jadson179" title="Code">💻</a> <a href="#devarthurribeiro" title="Design">🎨</a></td>
+  <tr>
+</table>

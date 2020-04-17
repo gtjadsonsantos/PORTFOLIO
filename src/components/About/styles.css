@@ -1,0 +1,79 @@
+#containerAbout {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 800px;
+}
+
+#containerAbout #myabout {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 400px;
+  font-family: Roboto, sans-serif;
+}
+#myabout > h3 ,
+#work h3,
+#scholl h3  {
+  color: #f5a623; 
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.works, .scholls {
+  margin-top: 10px;
+}
+
+.works h4 ,.scholls h4 {
+  color:#555;
+  font-weight: 800;
+  margin-bottom: 9px;
+}
+
+.works, .scholls p {
+  color:#555;
+}
+
+
+
+#myabout div p {
+  text-align: justify;
+  word-wrap: break-word;
+  font-size: larger;
+}
+
+#container-work-scholl {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 600px;
+  height: 400px;
+}
+
+@media only screen and (max-width: 1010px){
+  #containerAbout {
+    flex-direction: column;
+    padding-top: 40px;
+  }
+}
+
+
+@media only screen and (max-width: 500px){
+  #containerAbout #myabout  {
+    width: 100%;
+  }
+  #container-work-scholl {
+    width: 90%;
+  }
+  #myabout  p,h3 {
+    width: 80%;
+    font-size: 13px;
+    margin: auto;
+  }
+  .works, .scholls p {
+      font-size: 12px;
+  }
+
+}
+
