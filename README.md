@@ -150,7 +150,7 @@ navegue até src/Utils/config.js, nesse arquivo terá o um objeto de configuraç
 ```
 
 
-## License 📝
+## Licença 📝
 
 Esse projeto usa a licença MIT license - veja o arquivo LICENSE para mais detalhes
 
