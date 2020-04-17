@@ -31,7 +31,8 @@ website de divulção do projeto mostrando.
 
 Fornecer uma ambiente simples para estruturar seus `projetos`, `serviços` e `contatos` de uma forma profissional.
 
-## Servidor de desenvolvimento 🚀
+## Ambiente de desenvolvimento 🚀
+
 
 Clonando o projeto:
 
@@ -48,16 +49,105 @@ cd portfolio/
 Baixando as dependências do projeto
 
 ```bash
-yarn
+yarn or npm install 
 ```
 
-Rodando o projeto
+Rodando o projeto como dev
 
 ```bash
-yarn start
+yarn start ou npm run start 
+```
+
+Criando build podução
+
+```
+  yarn deploy para postar no seu github
+
 ```
 
 Acesse [http://localhost:3000](http://localhost:3000) com o seu navegador para ver o resultado.
+
+# Configuração 
+
+navegue até src/Utils/config.js, nesse arquivo terá o um objeto de configuração que aponta para alguns recursos da pagina.
+
+**Exemplo**: estrutura do objeto
+
+```js
+{  
+    projects: {
+        __all: [
+            {
+                img: "URL IMAGEM DO PROJETO",
+                url: "URL PROJETO"
+            }
+            
+        ],
+        __web: [
+            {
+                img: "URL IMAGEM DO PROJETOS WEBS",
+                url: "URL PROJETO WEB"
+            }
+        ],
+        __android: [
+            {
+                img: "URL IMAGEM DO PROJETOS MOBILE ANDROID",
+                url: "URL PROJETOS MOBILE ANDROID"
+            }
+        ],
+        __ios: [
+          {
+                img: "URL IMAGEM DO PROJETOS MOBILE IOS",
+                url: "URL PROJETOS MOBILE IOS"
+            }
+        ],
+        __desktop: [
+           {
+                img: "URL IMAGEM DO PROJETOS DESKTOP",
+                url: "URL PROJETOS DESKTOP"
+            }
+        ]
+    },
+    services: [
+        { icon: 'NOME DA CLASSE https://fontawesome.com/', title: "NOME SERVIÇO",  description: "DESCRIÇÃO DO SERVIÇO"},
+        { icon: 'NOME DA CLASSE https://fontawesome.com/', title: "NOME SERVIÇO" , description: "DESCRIÇÃO DO SERVIÇO"},
+        { icon: 'NOME DA CLASSE https://fontawesome.com/', title: "NOME SERVIÇO" , description: "DESCRIÇÃO DO SERVIÇO"},
+        { icon: 'NOME DA CLASSE https://fontawesome.com/', title: "NOME SERVIÇO" , description: "DESCRIÇÃO DO SERVIÇO"},
+        { icon: 'NOME DA CLASSE https://fontawesome.com/', title: "NOME SERVIÇO" , description: "DESCRIÇÃO DO SERVIÇO"},
+        { icon: 'NOME DA CLASSE https://fontawesome.com/', title: "NOME SERVIÇO" , description: "DESCRIÇÃO DO SERVIÇO"},
+
+    ],
+    about: {
+        works: [
+            { company: "NOME DA EMPRESA", role: "NOME DO CARGO", initYear: "DATA DE INICIO", exitYear: "DATA FIM" },
+            { company: "NOME DA EMPRESA", role: "NOME DO CARGO", initYear: "DATA DE INICIO", exitYear: "DATA FIM" },
+            { company: "NOME DA EMPRESA", role: "NNOME DO CARGO", initYear: "DATA DE INICIO", exitYear: "DATA FIM" },
+        ],
+        scholl: [
+            { company: "NOME DA ESCOLA", course: "NOME DO CURSO", initYear: "DATA DE INICIO", exitYear: "DATA FIM"  },
+            { company: "NOME DA ESCOLA", course: "NOME DO CURSO", initYear: "DATA DE INICIO", exitYear: "DATA FIM"  },
+            { company: "NOME DA ESCOLA", course: "NOME DO CURSO", initYear: "DATA DE INICIO", exitYear: "DATA FIM"  }
+        ],
+        description: {
+            text: `
+            DECRIÇÃO SOBRE VOCÊ
+            `
+        }
+    },
+    social: {
+        instagram: "URL INSTAGRAM",
+        github: "URL GITHUB",
+        facebook: "URL FACEBOOK",
+        linkegin: "URL LINKEDIN",
+    },
+    person: {
+        img: "URL DA IMAGEM DA HOME",
+        role: "CARGO ATUAL",
+        icon: "URL DO FAVICON",
+        name: "SEU NOME"
+    }
+}
+```
 
 
 ## License 📝

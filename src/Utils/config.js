@@ -63,7 +63,7 @@ export default {
             No momento estou em uma posição como estagiário em uma empresa chamada UNISEC atuando com diversas responsábilidades, tais como, suporte ao cliente, infraestruta, desenvolvimento de produtos/soluções e devops. 
             Estou participando de um projeto Open Source chamado http://github.com/jadson179/SMUH.
             Meu maior objetivo atualmente é atuar full-time com desenvolvimento e assim evoluir ainda mais na carreira como um desenvolvedor.
-            Tenho alguns projetos no github em http://github.com/jadson179  que usei para empregar algumas tecnologias para entender o seu funcionamento para fazer uso em produto futúro.
+            Tenho alguns projetos no github em http://github.com/jadson179  que usei para empregar algumas tecnologias para entender o seu funcionamento para fazer uso em soluções futúras.
             `
         }
     },
