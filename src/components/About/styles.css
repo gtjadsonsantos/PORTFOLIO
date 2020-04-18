@@ -59,12 +59,12 @@
 }
 
 
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 600px){
   #containerAbout #myabout  {
     width: 100%;
   }
   #container-work-scholl {
-    width: 90%;
+    width: 100%;
   }
   #myabout  p,h3 {
     width: 80%;

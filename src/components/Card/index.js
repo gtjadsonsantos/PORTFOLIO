@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 
-import './styles.css';
+import "./styles.css";
 
 
 export default function Cart({ url, img }) {
@@ -8,5 +8,5 @@ export default function Cart({ url, img }) {
       <a href={url}>
         <img src={img} alt="picture image" />
       </a>
-  )
+  );
 }

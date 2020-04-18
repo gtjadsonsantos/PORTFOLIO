@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
-import config  from '../../Utils/config'
-import Card from '../Card'
-import './styles.css'
+import React, { useState } from "react";
+import config  from "../../Utils/config";
+import Card from "../Card";
+import "./styles.css";
 
 
 function Section() {
-    const [type, setType] = useState(config.projects.__all.map(item => (item)))
+    const [type, setType] = useState(config.projects.__all.map(item => (item)));
     
     return (
         <>
@@ -19,12 +19,12 @@ function Section() {
                 </ul>
                 <div id="containerProjects">
                     {
-                        type.map(item => ( <Card url={item.url} img={item.img} /> ))
+                        type.map(item => ( <Card key={Math.random() * 1000}  url={item.url} img={item.img} /> ))
                     }
                 </div>
             </div>
         </>
-    )
+    );
 }
 
 export default Section;

@@ -53,6 +53,8 @@
     width: 100%;
     margin: auto;
     max-width: 600px;
+    object-fit: cover;  
+
 }
 
 @media only screen  and (max-width: 620px){

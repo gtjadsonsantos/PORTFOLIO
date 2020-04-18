@@ -26,6 +26,11 @@ website de divulção do projeto mostrando.
   <br>
 </div>
 
+## Funcionalidades 
+
+- Notificação 🔔
+
+
 
 ## Motivo 🤔
 
@@ -145,9 +150,20 @@ navegue até src/Utils/config.js, nesse arquivo terá o um objeto de configuraç
         role: "CARGO ATUAL",
         icon: "URL DO FAVICON",
         name: "SEU NOME"
+    },
+    platforms: {
+      slack: {
+          url: "URL WEBHOOK SLACK",
+          channel: "NOME DO CANAL",
+          username: "NOME DO APP",
+          text: "MENSAGEM QUE QUER RECEBER",
+          icon_emoji: "CODIGO DO EMOJI EMOJI" 
+      }
     }
 }
+
 ```
+
 
 
 ## Licença 📝
@@ -156,11 +172,7 @@ Esse projeto usa a licença MIT license - veja o arquivo LICENSE para mais detal
 
 ## Ajude o projeto 🤝
 
-<a href="https://opencollective.com/covid19-brazil-api/donate" target="_blank">
-  <img src="https://opencollective.com/corvid19-brazil-api/donate/button@2x.png?color=blue" width=300 />
-</a>
-
-[Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=TQ2QEYCNZNH7C&currency_code=BRL&source=url)
+[paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=TQ2QEYCNZNH7C&currency_code=BRL&source=url)
 
 ## Autor
 <table>

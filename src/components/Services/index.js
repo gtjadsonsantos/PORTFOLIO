@@ -1,6 +1,6 @@
-import React from 'react';
-import config from '../../Utils/config'
-import './styles.css'
+import React from "react";
+import config from "../../Utils/config";
+import "./styles.css";
 
 function Services() {
   return (
@@ -15,7 +15,7 @@ function Services() {
         ))
       }
     </div>
-  )
+  );
 }
 
 export default Services;
