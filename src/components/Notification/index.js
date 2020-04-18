@@ -20,7 +20,6 @@ export default function Notification() {
         slackNotification();
       }
     }
-
     verifyNotification();
   }, []);
 

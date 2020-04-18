@@ -85,7 +85,7 @@ export default {
             channel: "#portfolio",
             username: "webhookbot",
             text: "Tem um novo alguem visualizando seu portfolio 🥰",
-            icon_emoji: ":ghost:" 
+            icon_emoji: ":ghost:"
         }
     }
 };

@@ -9,7 +9,6 @@ function slackNotification() {
     text,
     icon_emoji,
   };
-
   fetch(url, {
     method: "POST",
     body: JSON.stringify(data)
