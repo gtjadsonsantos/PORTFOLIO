@@ -145,6 +145,15 @@ navegue até src/Utils/config.js, nesse arquivo terá o um objeto de configuraç
         role: "CARGO ATUAL",
         icon: "URL DO FAVICON",
         name: "SEU NOME"
+    },
+    platforms: {
+      slack: {
+          url: "URL WEBHOOK SLACK",
+          channel: "NOME DO CANAL",
+          username: "NOME DO APP",
+          text: "MENSAGEM QUE QUER RECEBER",
+          icon_emoji: "CODIGO DO EMOJI EMOJI" 
+      }
     }
 }
 ```
