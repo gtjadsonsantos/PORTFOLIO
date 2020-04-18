@@ -81,7 +81,7 @@ export default {
     },
     platforms: {
         slack: {
-            url: "https://hooks.slack.com/services/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",
+            url: "https://hooks.slack.com/services/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",
             channel: "#portfolio",
             username: "webhookbot",
             text: "Tem um novo alguem visualizando seu portfolio 🥰",
