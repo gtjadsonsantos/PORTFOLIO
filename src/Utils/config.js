@@ -1,36 +1,36 @@
 
-export default {  
+export default {
     projects: {
         __all: [
             {
-                img: "https://github.com/devarthurribeiro/covid19-brazil-api/raw/master/static/screenshot.png",
-                url: "https://github.com/jadson179/BE-THE-HERO"
+                img: "https://github.com/jadson179/portfolio/raw/master/img/portfolio.svg?sanitize=true",
+                url: "https://github.com/jadson179/portfolio"
             },
             {
-                img: "https://github.com/devarthurribeiro/covid19-brazil-api/raw/master/static/screenshot.png",
-                url: "https://github.com/jadson179/BE-THE-HERO"
+                img: "https://github.com/jadson179/portfolio/raw/master/img/portfolio.svg?sanitize=true",
+                url: "https://github.com/jadson179/portfolio"
             },
             {
-                img: "https://github.com/devarthurribeiro/covid19-brazil-api/raw/master/static/screenshot.png",
-                url: "https://github.com/jadson179/BE-THE-HERO"
+                img: "https://github.com/jadson179/portfolio/raw/master/img/portfolio.svg?sanitize=true",
+                url: "https://github.com/jadson179/portfolio"
             },
             {
-                img: "https://github.com/devarthurribeiro/covid19-brazil-api/raw/master/static/screenshot.png",
-                url: "https://github.com/jadson179/BE-THE-HERO"
+                img: "https://github.com/jadson179/portfolio/raw/master/img/portfolio.svg?sanitize=true",
+                url: "https://github.com/jadson179/portfolio"
             },
             {
-                img: "https://github.com/devarthurribeiro/covid19-brazil-api/raw/master/static/screenshot.png",
-                url: "https://github.com/jadson179/BE-THE-HERO"
+                img: "https://github.com/jadson179/portfolio/raw/master/img/portfolio.svg?sanitize=true",
+                url: "https://github.com/jadson179/portfolio"
             },
             {
-                img: "https://github.com/devarthurribeiro/covid19-brazil-api/raw/master/static/screenshot.png",
-                url: "https://github.com/jadson179/BE-THE-HERO"
+                img: "https://github.com/jadson179/portfolio/raw/master/img/portfolio.svg?sanitize=true",
+                url: "https://github.com/jadson179/portfolio"
             },
         ],
         __web: [
             {
-                img: "https://github.com/devarthurribeiro/covid19-brazil-api/raw/master/static/screenshot.png",
-                url: "https://github.com/jadson179/BE-THE-HERO"
+                img: "https://github.com/jadson179/portfolio/raw/master/img/portfolio.svg?sanitize=true",
+                url: "https://github.com/jadson179/portfolio"
             }
         ],
         __android: [],
@@ -38,12 +38,12 @@ export default {
         __desktop: []
     },
     services: [
-        { icon: 'fa fa-code fa-3x', title: "APLICAÇÕES", description: "Criação de aplicações comerciais e pessoais" },
-        { icon: 'fas fa-file-code', title: "AUTOMAÇÕES", description: "Criação de scripts para automação de processos" },
-        { icon: 'fa fa-magic fa-3x', title: "TEMPLATES", description: "Criação de template/layout da sua ideia" },
-        { icon: 'fas fa-lightbulb', title: "CONSULTORIA", description: "Prestação de consultoria no axílio de sites,aplicações,aplicativos e tecnologias." },
-        { icon: 'fab fa-android', title: "ANDROID", description: "Criação de aplicativos mobile para uso android" },
-        { icon: 'fa fa-user-secret fa-3x', title: "ANALÍTICOS", description: "Criação de dashboards para melhor visualizar sua base de dados" },
+        { icon: "fa fa-code fa-3x", title: "APLICAÇÕES", description: "Criação de aplicações comerciais e pessoais" },
+        { icon: "fas fa-file-code", title: "AUTOMAÇÕES", description: "Criação de scripts para automação de processos" },
+        { icon: "fa fa-magic fa-3x", title: "TEMPLATES", description: "Criação de template/layout da sua ideia" },
+        { icon: "fas fa-lightbulb", title: "CONSULTORIA", description: "Prestação de consultoria no axílio de sites,aplicações,aplicativos e tecnologias." },
+        { icon: "fab fa-android", title: "ANDROID", description: "Criação de aplicativos mobile para uso android" },
+        { icon: "fa fa-user-secret fa-3x", title: "ANALÍTICOS", description: "Criação de dashboards para melhor visualizar sua base de dados" },
 
     ],
     about: {
@@ -78,5 +78,14 @@ export default {
         role: "Developer Javascript",
         icon: "https://avatars0.githubusercontent.com/u/42282908?s=460&u=79ce909209ebf14da91a2d2517c9b0f9e378a4e1&v=4",
         name: "Jadson Santos"
+    },
+    platforms: {
+        slack: {
+            url: "https://hooks.slack.com/services/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",
+            channel: "#portfolio",
+            username: "webhookbot",
+            text: "Tem um novo alguem visualizando seu portfolio 🥰",
+            icon_emoji: ":ghost:" 
+        }
     }
-}
+};

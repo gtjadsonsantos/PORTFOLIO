@@ -1,18 +1,18 @@
-import React, { useEffect } from 'react';
-import './styles.css'
+import React, { useEffect } from "react";
+import "./styles.css";
 
-import config from '../../Utils/config'
+import config from "../../Utils/config";
 
 
 function Header() {
     useEffect(() => {
-        document.title = config.person.name + " - Portfolio"
-       const favicon =  document.querySelectorAll('link')[0]
-       favicon.setAttribute('rel',"icon")
-       favicon.setAttribute('href',config.person.icon)
+        document.title = config.person.name + " - Portfolio";
+       const favicon =  document.querySelectorAll("link")[0];
+       favicon.setAttribute("rel","icon");
+       favicon.setAttribute("href",config.person.icon);
 
-        document.querySelector('head').appendChild(favicon)
-    }, [])
+        document.querySelector("head").appendChild(favicon);
+    }, []);
     return (
         <header id="containerHeader" className="containerHeader">
             <ul id="menu-navigation-header" >
@@ -50,7 +50,7 @@ function Header() {
                 </a>
             </div>
         </header>
-    )
+    );
 }
 
 export default Header;
