@@ -26,6 +26,11 @@ website de divulção do projeto mostrando.
   <br>
 </div>
 
+## Funcionalidades 
+
+- Notificação 🔔
+
+
 
 ## Motivo 🤔
 
