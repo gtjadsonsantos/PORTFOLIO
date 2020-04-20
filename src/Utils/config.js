@@ -83,5 +83,8 @@ export default {
         zapier: {
             url: "https://hooks.zapier.com/hooks/catch/7295817/o5ipytr/",
         }
-    }
+    },
+    themas: [
+        '#8e45ae'
+    ]
 };

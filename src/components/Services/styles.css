@@ -1,7 +1,7 @@
 .containerServices {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  background-color: #8e45ae;
+  background-color: var(--primary-color);
   height: 100%;
 }
 
