@@ -29,6 +29,7 @@ website de divulção do projeto mostrando.
 ## Funcionalidades 
 
 - Notificação 🔔
+- Themas  🤩
 
 
 
@@ -155,7 +156,10 @@ navegue até src/Utils/config.js, nesse arquivo terá o um objeto de configuraç
       zapier: {
           url: "URL WEBHOOK ZAPIER",
       }
-    }
+    },
+     themas: [
+        '#8e45ae'
+    ]
 }
 
 ```

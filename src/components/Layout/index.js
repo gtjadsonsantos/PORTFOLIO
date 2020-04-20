@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 
 import "./styles.css";
 
@@ -7,8 +7,12 @@ import Section from "../Section";
 import Services from "../Services";
 import About from "../About";
 import Notification from "../Notification";
+import Themes from '../Themes/index'
 
 function Layout() {
+    useEffect(()=>{
+        Themes()
+    },[])
     return (
         <div className="containerLayout">
             <Notification/>
