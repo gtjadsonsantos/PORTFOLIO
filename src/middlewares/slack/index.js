@@ -1,19 +1,10 @@
 import config from "../../Utils/config";
 
-const { channel, icon_emoji, text, url, username } = config.platforms.slack;
+const { url } = config.platforms.zapier;
 
 function slackNotification() {
-  const data =  {
-    channel,
-    username,
-    text,
-    icon_emoji,
-  };
-  fetch(url, {
-    method: "POST",
-    body: JSON.stringify(data)
-  })
-    .then(json => console.log(json));
+
+  fetch(url, { method: "POST" , body: JSON.stringify({ text:"oi" })})
 }
 
 export default slackNotification;

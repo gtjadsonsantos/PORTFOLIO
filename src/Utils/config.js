@@ -80,12 +80,8 @@ export default {
         name: "Jadson Santos"
     },
     platforms: {
-        slack: {
-            url: "https://hooks.slack.com/services/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",
-            channel: "#portfolio",
-            username: "webhookbot",
-            text: "Tem um novo alguem visualizando seu portfolio 🥰",
-            icon_emoji: ":ghost:"
+        zapier: {
+            url: "https://hooks.zapier.com/hooks/catch/7295817/o5ipytr/",
         }
     }
 };

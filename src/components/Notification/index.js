@@ -9,7 +9,6 @@ export default function Notification() {
   useEffect(() => {
     function verifyNotification() {
       const status = sessionStorage.getItem("slack_status");
-      console.log(status);
 
       if (status === null) {
         sessionStorage.setItem("slack_status", "up");
