@@ -29,7 +29,7 @@ website de divulção do projeto mostrando.
 ## Funcionalidades 
 
 - Notificação 🔔
-- Themas  🤩
+- Temas  🤩
 
 
 
