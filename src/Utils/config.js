@@ -85,6 +85,6 @@ export default {
         }
     },
     themas: [
-        '#8e45ae'
+        "#8e45ae"
     ]
 };
