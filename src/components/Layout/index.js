@@ -7,12 +7,12 @@ import Section from "../Section";
 import Services from "../Services";
 import About from "../About";
 import Notification from "../Notification";
-import Themes from '../Themes/index'
+import Themes from "../Themes/index";
 
 function Layout() {
     useEffect(()=>{
-        Themes()
-    },[])
+        Themes();
+    },[]);
     return (
         <div className="containerLayout">
             <Notification/>

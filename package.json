@@ -21,7 +21,7 @@
     "eject": "react-scripts eject",
     "deploy": "yarn && yarn build && gh-pages -d build",
     "lint": "npx eslint .",
-    "lint:fix": "npx eslint . --fix"
+    "lint:fix": "npx eslint . --ext .js --fix "
   },
   "eslintConfig": {
     "extends": "react-app"

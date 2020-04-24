@@ -5,8 +5,6 @@
 <img src="https://camo.githubusercontent.com/d41b9884bd102b525c8fb9a8c3c8d3bbed2b67f0/68747470733a2f2f6261646765732e66726170736f66742e636f6d2f6f732f76312f6f70656e2d736f757263652e7376673f763d313033">
 </p>
 
-
-
 <p align="center">
 <img src="img/logo.svg" 
 width="300"
