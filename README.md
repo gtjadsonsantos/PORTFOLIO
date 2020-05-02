@@ -10,10 +10,19 @@
 width="300"
 >
 </p>
-
-<p align="center">
-PORTFOLIO 
+<p align="center" >
+<pre style="text-align: center; background-color: transparent;">
+  _____                   _      __     __    _   _         
+ |  __ \                 | |    / _|   /_/   | | (_)        
+ | |__) |   ___    _ __  | |_  | |_    ___   | |  _    ___  
+ |  ___/   / _ \  | '__| | __| |  _|  / _ \  | | | |  / _ \ 
+ | |      | (_) | | |    | |_  | |   | (_) | | | | | | (_) |
+ |_|       \___/  |_|     \__| |_|    \___/  |_| |_|  \___/ 
+                                                            
+                                                            
+</pre>
 </p>
+
 
 
 **Chat: __[WhatsApp](https://api.whatsapp.com/send?phone=5548999328092)**
@@ -185,3 +194,4 @@ Esse projeto usa a licença MIT license - veja o arquivo LICENSE para mais detal
     <td align="center"><a href="https://github.com/jasdson179"><img src="https://avatars0.githubusercontent.com/u/42282908?s=460&u=79ce909209ebf14da91a2d2517c9b0f9e378a4e1&v=4" width="100px;" alt=""/><br /><sub><b>Jadson Santos</b></sub></a><br /><a href="https://github.com/jadson179/portfolio/commits?author=jadson179" title="Code">💻</a> <a href="#devarthurribeiro" title="Design">🎨</a></td>
   <tr>
 </table>
+
