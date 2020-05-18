@@ -51,8 +51,9 @@
 }
 #containerProjects img {
     width: 95%;
-    margin: auto;
+    margin: auto auto 15px auto;
     max-width: 600px;
+    height: 265px ;
     object-fit: cover;  
 
 }
