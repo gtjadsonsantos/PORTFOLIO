@@ -7,33 +7,38 @@ export default {
                 url: "https://github.com/jadson179/portfolio"
             },
             {
-                img: "https://github.com/jadson179/portfolio/raw/master/img/portfolio.svg?sanitize=true",
-                url: "https://github.com/jadson179/portfolio"
+                img: "https://github.com/jadson179/PAINEL/blob/master/images/Screenshot%20from%202020-05-17%2013-44-10.png?raw=true",
+                url: "https://github.com/jadson179/PAINEL"
             },
             {
-                img: "https://github.com/jadson179/portfolio/raw/master/img/portfolio.svg?sanitize=true",
-                url: "https://github.com/jadson179/portfolio"
+                img: "https://github.com/jadson179/portfolio/raw/master/img/painel-mobile.svg?sanitize=true",
+                url: "https://github.com/jadson179/PAINEL"
             },
             {
-                img: "https://github.com/jadson179/portfolio/raw/master/img/portfolio.svg?sanitize=true",
-                url: "https://github.com/jadson179/portfolio"
-            },
-            {
-                img: "https://github.com/jadson179/portfolio/raw/master/img/portfolio.svg?sanitize=true",
-                url: "https://github.com/jadson179/portfolio"
-            },
-            {
-                img: "https://github.com/jadson179/portfolio/raw/master/img/portfolio.svg?sanitize=true",
-                url: "https://github.com/jadson179/portfolio"
-            },
+                img: "https://github.com/jadson179/portfolio/raw/master/img/site-painel.svg?sanitize=true",
+                url: "https://github.com/jadson179/PAINEL"
+            }
         ],
         __web: [
             {
                 img: "https://github.com/jadson179/portfolio/raw/master/img/portfolio.svg?sanitize=true",
                 url: "https://github.com/jadson179/portfolio"
+            },
+            {
+                img: "https://github.com/jadson179/PAINEL/blob/master/images/Screenshot%20from%202020-05-17%2013-44-10.png?raw=true",
+                url: "https://github.com/jadson179/PAINEL"
+            },
+            {
+                img: "https://github.com/jadson179/portfolio/raw/master/img/site-painel.svg?sanitize=true",
+                url: "https://github.com/jadson179/PAINEL"
             }
         ],
-        __android: [],
+        __android: [
+            {
+                img: "https://github.com/jadson179/portfolio/raw/master/img/painel-mobile.svg?sanitize=true",
+                url: "https://github.com/jadson179/PAINEL"
+            }
+        ],
         __ios: [],
         __desktop: []
     },
