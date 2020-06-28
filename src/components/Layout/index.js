@@ -8,6 +8,7 @@ import Services from "../Services";
 import About from "../About";
 import Notification from "../Notification";
 import Themes from "../Themes/index";
+import Anuncio from "../Anuncio";
 
 function Layout() {
     useEffect(()=>{
@@ -20,6 +21,7 @@ function Layout() {
             <Section />
             <Services />
             <About />
+            <Anuncio />
         </div>
     );
 }
