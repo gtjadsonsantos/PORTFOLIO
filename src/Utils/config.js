@@ -90,6 +90,6 @@ export default {
         }
     },
     themas: [
-        "#8e45ae"
+        "#0027ff"
     ]
 };
