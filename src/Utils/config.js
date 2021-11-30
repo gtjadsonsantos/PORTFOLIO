@@ -66,7 +66,7 @@ export default {
             { company: "HOTEL UNIQUE", role: "Jovem Aprendiz de Cozinha", initYear: "04/2016", exitYear: "02/2017" },
         ],
         scholl: [
-            { company: "Centro Universitário Senac", course: "Analise e Desenvolvimento de Sistemas", initYear: "2019", exitYear: "2022" },
+            { company: "Centro Universitário Senac", course: "Analise e Desenvolvimento de Sistemas", initYear: "2019", exitYear: "2021" },
             { company: "Centro Universitário Senac", course: "Gestão de Tecnologia da Informação", initYear: "2017", exitYear: "2019" },
             { company: "Maria Auxiliadora", course: "Ensino Médio", initYear: "2009", exitYear: "2015" }
         ],
