@@ -17,6 +17,10 @@ export default {
             {
                 img: "https://github.com/jadson179/portfolio/raw/master/img/site-painel.svg?sanitize=true",
                 url: "https://github.com/jadson179/PAINEL"
+            },
+            {
+                img: "https://raw.githubusercontent.com/recobook/core/main/images/Login.svg",
+                url: "https://github.com/recobook/core"
             }
         ],
         __web: [
@@ -31,6 +35,10 @@ export default {
             {
                 img: "https://github.com/jadson179/portfolio/raw/master/img/site-painel.svg?sanitize=true",
                 url: "https://github.com/jadson179/PAINEL"
+            },
+            {
+                img: "https://raw.githubusercontent.com/recobook/core/main/images/Login.svg",
+                url: "https://github.com/recobook/core"
             }
         ],
         __android: [
